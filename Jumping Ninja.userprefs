@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/GameOverManager.cs">
+    <Files>
+      <File FileName="Assets/scripts/playerJumpScript.cs" Line="126" Column="1" />
+      <File FileName="Assets/scripts/jumpButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/MenuManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/GameManager.cs" Line="26" Column="1" />
+      <File FileName="Assets/scripts/GameOverManager.cs" Line="35" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
