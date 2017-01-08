@@ -6,7 +6,7 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour {
 
 	public static ScoreManager instance;
-	private int score;
+	public int score;
 	public Text scoreText;
 
 	void Awake(){
@@ -32,6 +32,7 @@ public class ScoreManager : MonoBehaviour {
 		if (PlayerPrefs.HasKey ("highScore")) {
 			if (score > PlayerPrefs.GetInt ("highScore")) {
 				PlayerPrefs.SetInt ("highScore", score);
+
 			}
 		} 
 		else {

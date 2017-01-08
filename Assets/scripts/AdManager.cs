@@ -29,7 +29,7 @@ public class AdManager : MonoBehaviour {
 	public void ShowAd(){
 		if(PlayerPrefs.HasKey("Adcount")) {
 
-			if(PlayerPrefs.GetInt("Adcount")==3){
+			if(PlayerPrefs.GetInt("Adcount")==4){
 				
 				if (Advertisement.IsReady ("video")) {
 					Advertisement.Show ("video");

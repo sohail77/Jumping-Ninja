@@ -110,6 +110,7 @@ public class playerJumpScript : MonoBehaviour {
 
 				if (ScoreManager.instance != null) {
 					ScoreManager.instance.IncrementScore ();
+					AchievementManager.instance.CheckAchievements ();
 				}
 			
 			}

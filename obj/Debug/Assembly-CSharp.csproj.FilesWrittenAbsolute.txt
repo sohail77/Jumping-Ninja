@@ -21,3 +21,7 @@
 /Users/SOHAIL/My Games/Jumping Ninja/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/SOHAIL/My Games/Jumping Ninja/Temp/bin/Debug/UnityEngine.Purchasing.dll
 /Users/SOHAIL/My Games/Jumping Ninja/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/SOHAIL/My Games/Jumping Ninja /Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/SOHAIL/My Games/Jumping Ninja /Temp/bin/Debug/Assembly-CSharp.dll
+/Users/SOHAIL/My Games/Jumping Ninja /obj/Debug/Assembly-CSharp.dll
+/Users/SOHAIL/My Games/Jumping Ninja /obj/Debug/Assembly-CSharp.dll.mdb

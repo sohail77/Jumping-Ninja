@@ -30,6 +30,7 @@ public class GameOverManager : MonoBehaviour {
 		ScoreManager.instance.GetHighScore ();
 		score.text = "Score:\n" + "" + ScoreManager.instance.GetScore ();
 		highScore.text ="High Score:\n" +  PlayerPrefs.GetInt ("highScore").ToString ();
+		LeaderBoardManager.instance.AddScoreToLeaderBoard ();
 		gameOverAnim.Play("GameOverPanel fadeIn");
 		AdManager.instance.ShowAd ();
 

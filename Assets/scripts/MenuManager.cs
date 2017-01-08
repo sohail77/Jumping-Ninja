@@ -22,4 +22,8 @@ public class MenuManager : MonoBehaviour {
 	public void Help(){
 		Application.LoadLevel ("howTo");
 	}
+
+//	public void showLeaderBoard(){
+//		LeaderBoardManager.instance.ShowLeaderBoard ();
+//	}
 }

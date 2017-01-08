@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{1B0F9AEF-EE16-E873-B9EF-7FBCC468F134}") = "Jumping Ninja ", "Assembly-CSharp.csproj", "{277114E5-7425-4520-94ED-3BDF468EDCC1}"
+EndProject
+Project("{1B0F9AEF-EE16-E873-B9EF-7FBCC468F134}") = "Jumping Ninja ", "Assembly-CSharp-Editor.csproj", "{62E37C0A-9EA6-8656-31D3-C019B97C3871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{277114E5-7425-4520-94ED-3BDF468EDCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277114E5-7425-4520-94ED-3BDF468EDCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277114E5-7425-4520-94ED-3BDF468EDCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277114E5-7425-4520-94ED-3BDF468EDCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E37C0A-9EA6-8656-31D3-C019B97C3871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E37C0A-9EA6-8656-31D3-C019B97C3871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E37C0A-9EA6-8656-31D3-C019B97C3871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E37C0A-9EA6-8656-31D3-C019B97C3871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
