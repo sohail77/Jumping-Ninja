@@ -9,6 +9,8 @@ public class playerJumpScript : MonoBehaviour {
 	private Rigidbody2D rb;
 	private Animator anim;
 
+
+
 	 public AudioSource landsound,deadSound;
 
     [SerializeField]
@@ -79,7 +81,7 @@ public class playerJumpScript : MonoBehaviour {
 	public void SetPower(bool setPower){
 		this.setPower = setPower;
 
-		if (!setPower) {
+		if (!setPower && !didJump) {
 			jump ();
 		}
 
@@ -103,8 +105,8 @@ public class playerJumpScript : MonoBehaviour {
 			if (target.tag == "platform") {
 				if (GameManager.instance != null) {
 					GameManager.instance.CreateNewPlatformAndLerp (target.transform.position.x);
-					//land.PlayOneShot (landsound,0.8f);
 					landsound.Play();
+
 
 				}
 

@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class jumpButton : MonoBehaviour,IPointerDownHandler,IPointerUpHandler {
+
 
 	public void OnPointerDown(PointerEventData data){
 		if (playerJumpScript.instance != null) {
@@ -15,5 +17,8 @@ public class jumpButton : MonoBehaviour,IPointerDownHandler,IPointerUpHandler {
 		if (playerJumpScript.instance != null) {
 			playerJumpScript.instance.SetPower (false);
 		}
+
+
 	}
+		
 }
